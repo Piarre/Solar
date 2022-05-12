@@ -11,17 +11,16 @@ class DialogBox:
       self.box = pygame.image.load('Game/assets/dialogs/dialog.png')
       self.box = pygame.transform.scale(self.box, (700, 100))
       self.texts = [
-         'Psst, en haut à gauche',
+         'Qu\'est ce les panneaux solaires ?',
+         'Les panneaux solaires sont des équipements qui permettent de',
+         'récupérer de l\'énergie solaire.',
+         'Ils sont situés sur les différents sols de la planète.',
+         'Ceci est un moyen écologique de produire de l\'électricé.',
          'Comment fonctionne les panneaux solaires ?',
-         'Ils sont installés sur les toits des maisons,', 
-         'pour produire de l\'électricité grâce au rayon du soleil.',
-         'Pour pouvoir utiliser cette électricité,',
-         'il faut les convertire le courant continue en courant alternatif ;',
-         'Ceci est fait dans le onduleur ou micro-onduleur.',
-         'Après avoir convertie ce courrant,', 
-         'il passe dans le tableau électrique',
-         'pour être ensuite utilisé dans une maison.',
-         'Merci d\'avoir joué !',
+         'Tout d\'abbord déplacez-vous en haut à gauche de la maison.',
+         'Ceci est un onduleur, il permet de convertir,',
+         'le courant continue en courant alternatif.',
+         'pour pouvoir utilié cette énergie ',
          'Pierre Et Gabriel 3ème3' 
          ]
       self.textIndex = 0
