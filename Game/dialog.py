@@ -1,5 +1,7 @@
 from time import sleep
+from unittest.main import main
 import pygame, pytmx, pyscroll
+
 
 from Game.map import MapManager
 
@@ -17,10 +19,12 @@ class DialogBox:
          'Ils sont situés sur les différents sols de la planète.',
          'Ceci est un moyen écologique de produire de l\'électricé.',
          'Comment fonctionne les panneaux solaires ?',
-         'Tout d\'abbord déplacez-vous en haut à gauche de la maison.',
+         'Tout d\'abbord déplacez-vous en haut à droite de la maison.',
          'Ceci est un onduleur, il permet de convertir,',
          'le courant continue en courant alternatif.',
-         'pour pouvoir utilié cette énergie ',
+         'Ce courant part ensuite vers le tableau',
+         'électrique qui va ensuite transmettre',
+         'l\'énergie vers les différents appareils électrique de la maison.',	
          'Pierre Et Gabriel 3ème3' 
          ]
       self.textIndex = 0
