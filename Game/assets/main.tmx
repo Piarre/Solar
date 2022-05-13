@@ -328,7 +328,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="5" name="objects">
+ <objectgroup color="#ff557f" id="5" name="objects" tintcolor="#0000ff">
   <object id="5" type="collision" x="0" y="0" width="800" height="32"/>
   <object id="6" type="collision" x="768" y="0" width="32" height="800"/>
   <object id="7" type="collision" x="0" y="0" width="32" height="800"/>
@@ -358,9 +358,6 @@
   </object>
   <object id="122" name="spawn" x="272" y="400">
    <point/>
-  </object>
-  <object id="123" x="626.438" y="180.596" width="108" height="19">
-   <text wrap="1">Bonjour Monde</text>
   </object>
  </objectgroup>
 </map>

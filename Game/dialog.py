@@ -12,6 +12,8 @@ class DialogBox:
    def __init__(self):
       self.box = pygame.image.load('Game/assets/dialogs/dialog.png')
       self.box = pygame.transform.scale(self.box, (700, 100))
+      self.startBox = pygame.image.load('Game/assets/dialogs/dialog.png')
+      self.startBox = pygame.transform.scale(self.startBox, (700, 100))
       self.texts = [
          'Qu\'est ce les panneaux solaires ?',
          'Les panneaux solaires sont des équipements qui permettent de',

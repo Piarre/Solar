@@ -1,5 +1,1 @@
-/build
-/dist
-/.idea
-/__pycache__
-/output
+/venv

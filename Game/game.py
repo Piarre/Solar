@@ -9,8 +9,8 @@ from Game.map import MapManager
 
 
 class Game:
-
     def __init__(self):
+        
         self.screen = pygame.display.set_mode((800, 600))
         pygame.display.set_caption('Solar - Pierre et Gabriel')
         
@@ -49,7 +49,6 @@ class Game:
             self.mapManager.draw()
             self.dialogBox.renderText(self.screen)
             pygame.display.flip()
-            tmxData = pytmx.util_pygame.load_pygame(f'Game/assets/house.tmx')
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -58,7 +57,6 @@ class Game:
                     if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_SPACE:
                             self.dialogBox.exec()
-
             clock.tick(60)
 
         pygame.quit()
